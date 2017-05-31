@@ -7,9 +7,6 @@ springboot集成mybatis-plus、druid示例
 - [mybatis-plus](https://github.com/baomidou/mybatis-plus)
 - [druid](https://github.com/druid-io/druid/)
 
-# Browser support
 
-Modern browsers and IE 10+.
-
-# License
+## License
 [MIT](http://opensource.org/licenses/MIT)

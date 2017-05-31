@@ -66,9 +66,9 @@ public class MybatisPlusGenerator {
 			}
 		});
 		dsc.setDriverName("com.mysql.jdbc.Driver");
-		dsc.setUsername("cmsp");
-		dsc.setPassword("cmsp2017");
-		dsc.setUrl("jdbc:mysql://120.24.4.20:3518/cmsp?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true");
+		dsc.setUsername("test");
+		dsc.setPassword("test2017");
+		dsc.setUrl("jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true");
 		mpg.setDataSource(dsc);
 
 		// 策略配置
@@ -158,6 +158,6 @@ public class MybatisPlusGenerator {
 		mpg.execute();
 
 		// 打印注入设置【可无】
-		System.err.println(mpg.getCfg().getMap().get("abc"));
+		logger.info(mpg.getCfg().getMap().get("abc").toString());
 	}
 }
